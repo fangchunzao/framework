@@ -1,0 +1,9 @@
+<div ng-init="ngTableInit()" style="width: 20%">
+    <table class="table table-striped" ng-table="tableParams" id="tableParams" width="100%">
+        <tr ng-repeat="data in $data">
+            <td data-title="'序号'">{{$index}}</td>
+            <td data-title="'列1'">{{data.value1}}</td>
+            <td data-title="'列2'">{{data.value2}}</td>
+        </tr>
+    </table>
+</div>

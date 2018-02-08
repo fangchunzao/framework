@@ -1,0 +1,40 @@
+body{margin:0;padding:0;font-family:Microsoft YaHei,Arial,Helvetica,sans-serif,Regular;font-size:12px;color:#333333;background:#f0f0f0}
+*{margin:0px; padding:0px;}
+input{outline:none;}
+input {filter:chroma(color=#000000);}
+input[type=submit],input[type=reset],input[type=button]{filter:chroma(color=#000000);}
+a{text-decoration:none;color:#333333;outline:none;star:expression(this.onFocus=this.blur());transition: all 0.5s ease 0s;}
+*html,*html{background-image:url(about:blank);background-attachment:fixed}
+a:hover{color:#0180cd;text-decoration:underline;}
+.su_head_01{background:#fff;height:84px;}
+.su_head_box{width:1100px;margin:0px auto;}
+.su_mar_01 h1{width:315px;overflow: hidden;margin:0px auto;padding-top:85px; text-align: center;}
+.su_content{background:url(../images/sign_img_01.gif) no-repeat bottom #f0f0f0;height:729px;}
+.su_mar_01{width:1100px;margin:0px auto; position:relative;height:569px;}
+.sign_box{width:295px;padding:130px 40px 0px 40px;margin:0px auto;}
+.username{position: relative;bottom: 9px;}
+.password{position: relative;top: 20px;}
+.forgetpwd{top: 25px;position: relative;}
+.login{position: relative;
+    top: 15px;}
+.sign_box .sign_s_01{overflow: hidden;}
+.sign_box .sign_s_01 .t_01{height:34px; line-height: 34px;font-size:18px;color:#666666;width:68px;padding-left:32px; float:left;}
+.sign_box .sign_s_01 .t_02{width:273px;height:42px;padding:0px 10px;}
+.sign_box .sign_s_01 .t_02 input{width:235px;border:0;padding:13px 0px;background: none;margin-left:30px;}
+.sign_box .sign_s_01 .t_prompt{color:#f1c6c8;margin-left:42px;line-height: 25px;}
+.sign_box .sign_s_01 input.sign_i_01{border:none;height:50px;text-align: center;cursor:pointer;width:100%; background:none}
+.sign_box .sign_s_01 span{float:right;line-height:18px;color:#fff;margin-top:5px;}
+.sign_box .sign_s_01 span a{color:#fff}
+.sign_box .sign_s_01 label{float:left; line-height: 18px; color:#fff;margin-top:5px;}
+.sign_box .sign_s_01 label input{vertical-align: middle;margin-right:10px;}
+.su_footer{color:#666; text-align: center;padding:35px 0px;}
+/*.sign_box .m_t_16{margin-top:16px}*/
+.sign_box .m_t_24{margin-top:24px}
+.sign_box .m_t_24 input.sign_i_01{font-size:16px;color:#666; background:#fff;border-radius:5px;line-height:50px}
+.sign_box .m_t_24 input.sign_i_01:hover{color:#f9525c}
+.si_por_le{ position:absolute;left:46px;width:175px;bottom:220px;}
+.si_le_title{overflow:hidden; line-height:30px}
+.si_le_title h3{font-size:18px;float:left}
+.si_le_title span{float:right;color:#999;}
+.si_por_le ul{color:#666;margin-top:10px}
+.si_por_le ul li{line-height:20px; list-style:none}

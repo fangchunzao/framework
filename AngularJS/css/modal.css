@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+.modal-dialog-big {
+	width:700px;
+	margin:100px auto 0!important;
+}
+.modal-dialog-big .modal-body {
+	height:455px;
+}
+
+.modal-dialog-biggst {
+	width:800px;
+}
+.modal-dialog-biggst .modal-body {
+	height:455px;
+}
+.modal-dialog-ss {
+	width:500px;
+	margin-top:165px!important;
+}
+.modal-dialog-xs {
+	width:400px;
+	margin-top:245px!important;
+}
+.modal-dialog-lg {
+	width:900px;
+}
+.modal-dialog-lg .modal-body {
+	height:455px;
+}
+/*role-detail.html modal add role*/
+.modal-dialog {
+	margin:140px auto 0 auto;
+}
+.modal-body {
+	overflow-y: auto;
+}
+.modal-content {
+	border-radius:0;
+	background:#f8f8f8;
+	border:0;
+}
+.modal-header {
+	height:50px;
+	background:#00499e;
+	color:#fff;
+	font-size:1.125rem;
+	border:0;
+}
+.modal-header .close {
+	color:#fff;
+}
+.modal-header .close:hover,
+.modal-header .close:focus {
+	color:#fff;
+}
+.modal-footer {
+	border:0;
+}
+.add_role_content {
+	background:#fff;
+	border:1px solid #111;
+}
+.search_border {
+	height:45px;
+}
+.search_border .search {
+	border-bottom:1px solid #111111;
+}
+.search_border .form-control {
+	border:0;
+	background:#e8e8e8;
+	width: 100%;
+	height: 45px;
+	padding-left: 40px;
+}
+.search_border .search .glyphicon-search {
+	top: 14px;
+	left: 10px;
+}
+.search_border  .search .glyphicon-remove {
+	top: 15px;
+}
+.add_role_content .radio, .checkbox .radio, .checkbox {
+	margin:0 auto;
+}
+.add_role_content  .checkbox input[type="checkbox"] {
+	margin-left: -8px;
+    margin-top: -5px;
+    width: 15px;
+
+}
+/*big modal-user-detail.html add role modal*/
+
+.choice_left {
+	float:left;
+	width:35%;
+}
+.choice_right {
+	float:right;
+	width:60%;
+	
+}
+.choice_left p ,.choice_right p {
+	height:30px;
+	line-height:30px;
+	font-size:1rem;
+	color:#333;
+	margin-bottom:15px;
+	padding-left:10px;
+}
+.left_border,.right_border {
+	border:1px solid #c1c1c1;
+	min-height: 380px;
+	background:#fff;
+}
+.all_role, .choice_roles{
+	margin-top:2px;
+	position:relative;
+}
+.all_role .table tr td {
+	padding-left:20px;
+	font-size:0.875rem;
+	color:#959595;
+}
+.all_role .table tr td i, .choice_roles .table tr td i{
+	text-align:center;
+}
+.all_role .table tr td i:hover, .choice_roles .table tr td i:hover{
+	color:#00499e;
+}
+.all_role .table {
+	word-wrap: break-word; 
+	word-break: break-all;
+}
+.table_maxheight {
+	height:330px;
+	overflow-y:auto;
+}
+.choice_roles .table tr th {
+	color:#5e5e5e;
+	font-size:0.875rem;
+	padding-left:20px;
+}
+.choice_roles .table tr td {
+	color:#959595;
+	font-size:0.875rem;
+	padding-left:20px;
+}
+.choice_roles .table tr td:first-child ,.all_role .table tr td:first-child{
+	width:80%;
+}
+.all_role .arrow {
+	position: absolute;
+	right: -20px;
+	top: 40%;
+	z-index: 30;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 20px solid #000;
+	border-bottom: 15px solid transparent;
+}
+.all_role .arrow em {
+	position: absolute;
+	right: 0;
+	top: -15px;
+	z-index: 30;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 20px solid #fff;
+	border-bottom: 15px solid transparent;
+}
+/*role.html modal add-roles-modal*/
+.form_list_modal label{
+	padding:0 20px;
+}
+/*project-list.html modal*/
+.modal_checkbox {
+	padding-top:0!important;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border:1px solid #ddd;
+}
+.table-bordered {
+	width:1030px;
+	margin-right:20px;
+}
+.table-bordered tbody tr th {
+	width:100px;
+}
+.table-bordered tbody tr td {
+	width:30px;
+}
+/*project-detail.html modal*/
+.time-query span {
+	display:inline-block;
+	margin-right:10px;
+}
+.time-query,.time-query a{
+	font-size:0.875rem;
+	color:#333;
+}
+.time-query a:hover{
+	color:#00499e;
+	cursor:pointer;
+	text-decoration:underline;
+}
+/* modal delect*/
+.modal-dialog-delect {
+	width:450px;
+	background:#fff;
+}
+.modal-dialog-delect .modal-content {
+	background:#fff;
+}
+.modal-dialog-delect .modal-header {
+	background:#f8f8f8;
+	padding:0;
+	height:45px;
+}
+.modal-dialog-delect .modal-header .modal-title span{
+	width: 45px;
+	height: 45px;
+	background: #fdd500;
+	color: #333;
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 1.2rem;
+	margin-right:20px;
+}
+.modal-dialog-delect .modal-body {
+	padding:15px 45px;
+}
+.modal-dialog-delect .modal-title {
+	color:#333;
+}
+#modal_assignment_member .modal-body {
+	overflow-y: hidden;
+}
